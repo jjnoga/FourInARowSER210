@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/four_in_a_row"
+        android:textAlignment="center"
+        android:fontFamily="@font/alberttextbold"
+        android:textSize="80sp"
+        android:textColor="#37f216"/>
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true"
+        android:autofillHints="@string/enterName"
+        android:hint="@string/enterName"
+        android:inputType="text"
+        android:minWidth="60dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/rules"
+        android:layout_width="400dp"
+        android:layout_height="270dp"
+        android:layout_below="@id/inputName"
+        android:layout_centerInParent="true"
+        android:text="@string/gameRules"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="132dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/rules"
+        android:layout_centerInParent="true"
+        android:text="@string/start"
+        android:backgroundTint="@color/buttonGreen"
+        android:onClick="onClick"/>
+
+</RelativeLayout>

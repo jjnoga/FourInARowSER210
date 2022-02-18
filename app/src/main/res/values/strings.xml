@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FourInARow</string>
+    <string name="enterName">Enter your name...</string>
+    <string name="four_in_a_row">FOUR IN A ROW</string>
+    <string name="start">Start!</string>
+    <string name="gameRules">Place a token on any unoccupied square on the grid. Face off against the computer to see who is the first to get four in a row vertically, horizontally, or diagonally!</string>
+    <string name="filler">this is a text</string>
+</resources>
